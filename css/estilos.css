@@ -1,0 +1,88 @@
+/**TIPOGRAFIAS**/
+@font-face{
+	font-family: 'menu';
+	src:url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face{
+	font-family: 'permanentMarket';
+	src:url("../fonts/BebasNeueBold.otf");
+}
+/**FIN TIPOGRAFIAS**/
+.texto{
+
+	font-family: 'menu';
+}
+.permanentMarket{
+	font-family: 'permanentMarket';
+}
+h1{
+	color:black;
+}
+nav.navbar{
+	background: transparent!important;
+	font-family: 'menu';
+
+}
+nav.navbar a{
+	color:white!important;
+}
+nav.navbar a.navbar-brand{
+	color:transparent!important;
+	background: transparent!important;
+}
+nav.navbar a.navbar-brand:hover{
+	color:transparent!important;
+	background: transparent!important;
+}
+nav.navbar a:hover{
+	background: #871A12;
+	border-radius: 50px;
+	color:white!important;
+	transition: width 2s;
+}
+nav.navbar a.dropdown-item{
+	color:#871A12!important;
+}
+nav.navbar a.dropdown-item:hover{
+	color:white!important;
+}
+.section{
+		margin:0;
+	padding: 0;
+		background-color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.carritoinfo{
+	background-color:#871A12;
+	color:white;
+	padding: 1%;
+	padding-right: 0; 
+}
+select{
+	background-color: #decaac;
+	border:0;
+	font-size: 5em;
+}
+.nombre{
+	font-size: 1.5em;
+}
+.carritoproducto{
+	color:white;
+	background-color: #871A12;
+	padding: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.descripcionArticulo{
+	cursor: pointer;
+}
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
